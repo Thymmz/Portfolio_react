@@ -21,14 +21,14 @@ export const aboutData = {
   paragraphOne: 'I originate from India and I have been doing software development for 4 years, I am proficient in both frontend and backend techlogies with experience in HTML, CSS, Python, Java and JavaScript.',
   paragraphTwo: 'I have worked with JavaScript frameworks like React and have database experience as well especially in SQL and PostgreSQL.',
   paragraphThree: 'Please check my resume below if interested.',
-  resume: 'Resume_AtharvaFD.pdf', // if no resume, the button will not show up
+  resume: 'https://www.docfly.com/editor/6ac101886c85ccf5b37a/8l7ck27ewys-d72aab0d', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project4.JPG',
+    img: 'project.JPG',
     title: 'E-Commerce Website',
     info: 'Developed a responsive website using ReactJS on a phone store with an attractive user interface.',
     info2: 'Implemented a fully functional cart with options to increase/decrease the quanity in cart, remove an item, clear cart with responsive cart receipt.',
