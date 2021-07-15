@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'I originate from India and I have been doing software development for 4 years, I am proficient in both frontend and backend techlogies with experience in HTML, CSS, Python, Java and JavaScript.',
   paragraphTwo: 'I have worked with JavaScript frameworks like React and have database experience as well especially in SQL and PostgreSQL.',
   paragraphThree: 'Please check my resume below if interested.',
-  resume: 'https://www.docfly.com/editor/6ac101886c85ccf5b37a/8l7ck27ewys-d72aab0d', // if no resume, the button will not show up
+  resume: 'https://github.com/Thymmz/Resume/blob/main/Resume_AtharvaFD.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
