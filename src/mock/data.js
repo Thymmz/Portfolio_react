@@ -2,56 +2,56 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Atharva | Software Developer', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Atharva Deshpande',
+  subtitle: 'Software developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'I originate from India and I have been doing software development for 4 years, I am proficient in both frontend and backend techlogies with experience in HTML, CSS, Python, Java and JavaScript.',
+  paragraphTwo: 'I have worked with JavaScript frameworks like React and have database experience as well especially in SQL and PostgreSQL.',
+  paragraphThree: 'Please check my resume below if interested.',
+  resume: 'Resume_AtharvaFD.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project.JPG',
+    title: 'E-Commerce Website',
+    info: 'Developed a responsive website using ReactJS on a phone store with an attractive user interface.',
+    info2: 'Implemented a fully functional cart with options to increase/decrease the quanity in cart, remove an item, clear cart with responsive cart receipt.',
+    url: 'https://thymmz-ecommercereact.netlify.app/',
+    repo: 'https://github.com/Thymmz/E-commerce', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'project1.JPG',
+    title: 'Food Donation Website',
+    info: 'Developed a responsive website using HTML5, CSS3, and Bootstrap on food donation with an attractive user interface.',
+    info2: 'Implemented a signup/login functionality with a pop-up modal form.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/Thymmz/Food-Donation', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'project3.JPG',
+    title: 'Loan Prediction System',
+    info: 'Developed a web-based loan prediction system using Python which was trained and tested with 918 total loan instances and used various machine learning classification algorithms to check the eligibility of the customer for a loan.',
+    info2: 'Implemented various algorithms like Logistic Regression, Naïve Bayes, Decision Tree, Random Forest, and Support Vector Machine and selected the algorithm which gives the maximum accuracy.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/Thymmz/Loan-Prediction-System', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'atharva.deshpande228@gmail.com',
 };
 
 // FOOTER DATA
@@ -70,20 +70,16 @@ export const footerData = {
       name: 'twitter',
       url: '',
     },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+  
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/atharva-deshpande-2208/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Thymmz',
     },
   ],
 };
