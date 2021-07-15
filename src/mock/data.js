@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.JPG',
+    img: 'project4.JPG',
     title: 'E-Commerce Website',
     info: 'Developed a responsive website using ReactJS on a phone store with an attractive user interface.',
     info2: 'Implemented a fully functional cart with options to increase/decrease the quanity in cart, remove an item, clear cart with responsive cart receipt.',
