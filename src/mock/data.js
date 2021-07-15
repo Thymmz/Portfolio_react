@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'I have completed my undergrad in computer engineering in India, and I have been doing software development for 4 years, I am proficient in both frontend and backend techlogies with experience in HTML, CSS, Python, Java and JavaScript.',
+  paragraphOne: 'I have completed my undergrad in computer engineering in India, and I have been doing software development for 4 years, I am proficient in both frontend and backend technologies with experience in HTML, CSS, Python, Java and JavaScript.',
   paragraphTwo: 'I have worked with JavaScript frameworks like React and have database experience as well especially in SQL and PostgreSQL.',
   paragraphThree: 'Please check my resume below if interested.',
   resume: 'https://github.com/Thymmz/Resume/blob/main/Resume_AtharvaFD.pdf', // if no resume, the button will not show up
